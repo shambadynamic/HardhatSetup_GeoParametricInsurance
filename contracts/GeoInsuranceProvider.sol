@@ -34,7 +34,7 @@ contract GeoInsuranceProvider {
     ) public payable returns (address) {
 
         // first ensure that only insurer is creating new insurance contract and has fully funded the contract
-        require(msg.sender != insurer && msg.value >= _payoutValue);
+        require(msg.sender == insurer && msg.value >= _payoutValue);
 
         GeoInsuranceConsumer i = (new GeoInsuranceConsumer){
             value: _payoutValue * 1 ether
