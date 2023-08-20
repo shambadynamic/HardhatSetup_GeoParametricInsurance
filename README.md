@@ -6,4 +6,4 @@ The minimal frontend interface to interact with the **Geo-Parametric-Insurance**
 
 ### Demo Video
 
-###### To get a brief demo of the working, you can watch the [walkthrough video](https://youtu.be/2qCsMsYD5v0) showcasing the interaction with the frontend interface.
+To get a brief demo of the working, you can watch the [walkthrough video](https://youtu.be/2qCsMsYD5v0) showcasing the interaction with the frontend interface.
